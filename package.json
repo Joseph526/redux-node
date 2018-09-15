@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node src/",
     "test": "jest",
     "test:watch": "npm test -- --watch"
   },
@@ -16,5 +17,8 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "redux": "^4.0.0"
   }
 }
